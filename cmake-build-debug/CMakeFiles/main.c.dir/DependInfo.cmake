@@ -5,7 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/exerc_2_1.c" "/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/cmake-build-debug/CMakeFiles/main.c.dir/exerc_2_1.c.o"
-  "/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/exerc_2_2.c" "/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/cmake-build-debug/CMakeFiles/main.c.dir/exerc_2_2.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

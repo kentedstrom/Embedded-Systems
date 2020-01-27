@@ -27,8 +27,8 @@
 					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="main.c">
-				<Option output="/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/cmake-build-debug/main.c.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="two2">
+				<Option output="/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/cmake-build-debug/two2.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -39,14 +39,14 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 main.c"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 two2"/>
 					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="main.c/fast">
-				<Option output="/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/cmake-build-debug/main.c.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="two2/fast">
+				<Option output="/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/cmake-build-debug/two2.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -57,7 +57,7 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 main.c/fast"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 two2/fast"/>
 					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -74,11 +74,14 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/exerc_2_1.c">
-			<Option target="main.c"/>
+		<Unit filename="/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/exerc_2_1.h">
+			<Option target="two2"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/exerc_2_2.c">
-			<Option target="main.c"/>
+		<Unit filename="/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/exerc_2_2.h">
+			<Option target="two2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/main.c">
+			<Option target="two2"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

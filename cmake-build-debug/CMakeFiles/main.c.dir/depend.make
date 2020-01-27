@@ -3,5 +3,3 @@
 
 CMakeFiles/main.c.dir/exerc_2_1.c.o: ../exerc_2_1.c
 
-CMakeFiles/main.c.dir/exerc_2_2.c.o: ../exerc_2_2.c
-

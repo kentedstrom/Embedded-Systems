@@ -70,62 +70,17 @@ CMakeFiles/two2.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/two2.dir/main.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/main.c -o CMakeFiles/two2.dir/main.c.s
 
-CMakeFiles/two2.dir/exerc_2_1.c.o: CMakeFiles/two2.dir/flags.make
-CMakeFiles/two2.dir/exerc_2_1.c.o: ../exerc_2_1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/two2.dir/exerc_2_1.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/two2.dir/exerc_2_1.c.o   -c /cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/exerc_2_1.c
-
-CMakeFiles/two2.dir/exerc_2_1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/two2.dir/exerc_2_1.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/exerc_2_1.c > CMakeFiles/two2.dir/exerc_2_1.c.i
-
-CMakeFiles/two2.dir/exerc_2_1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/two2.dir/exerc_2_1.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/exerc_2_1.c -o CMakeFiles/two2.dir/exerc_2_1.c.s
-
-CMakeFiles/two2.dir/exerc_2_2.c.o: CMakeFiles/two2.dir/flags.make
-CMakeFiles/two2.dir/exerc_2_2.c.o: ../exerc_2_2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/two2.dir/exerc_2_2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/two2.dir/exerc_2_2.c.o   -c /cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/exerc_2_2.c
-
-CMakeFiles/two2.dir/exerc_2_2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/two2.dir/exerc_2_2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/exerc_2_2.c > CMakeFiles/two2.dir/exerc_2_2.c.i
-
-CMakeFiles/two2.dir/exerc_2_2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/two2.dir/exerc_2_2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/exerc_2_2.c -o CMakeFiles/two2.dir/exerc_2_2.c.s
-
-CMakeFiles/two2.dir/exerc_2_3.c.o: CMakeFiles/two2.dir/flags.make
-CMakeFiles/two2.dir/exerc_2_3.c.o: ../exerc_2_3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/two2.dir/exerc_2_3.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/two2.dir/exerc_2_3.c.o   -c /cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/exerc_2_3.c
-
-CMakeFiles/two2.dir/exerc_2_3.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/two2.dir/exerc_2_3.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/exerc_2_3.c > CMakeFiles/two2.dir/exerc_2_3.c.i
-
-CMakeFiles/two2.dir/exerc_2_3.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/two2.dir/exerc_2_3.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/exerc_2_3.c -o CMakeFiles/two2.dir/exerc_2_3.c.s
-
 # Object files for target two2
 two2_OBJECTS = \
-"CMakeFiles/two2.dir/main.c.o" \
-"CMakeFiles/two2.dir/exerc_2_1.c.o" \
-"CMakeFiles/two2.dir/exerc_2_2.c.o" \
-"CMakeFiles/two2.dir/exerc_2_3.c.o"
+"CMakeFiles/two2.dir/main.c.o"
 
 # External object files for target two2
 two2_EXTERNAL_OBJECTS =
 
 two2.exe: CMakeFiles/two2.dir/main.c.o
-two2.exe: CMakeFiles/two2.dir/exerc_2_1.c.o
-two2.exe: CMakeFiles/two2.dir/exerc_2_2.c.o
-two2.exe: CMakeFiles/two2.dir/exerc_2_3.c.o
 two2.exe: CMakeFiles/two2.dir/build.make
 two2.exe: CMakeFiles/two2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable two2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable two2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/two2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
