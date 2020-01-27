@@ -111,44 +111,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named two2
+# Target rules for targets named main.c
 
 # Build rule for target.
-two2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 two2
-.PHONY : two2
+main.c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main.c
+.PHONY : main.c
 
 # fast build rule for target.
-two2/fast:
-	$(MAKE) -f CMakeFiles/two2.dir/build.make CMakeFiles/two2.dir/build
-.PHONY : two2/fast
+main.c/fast:
+	$(MAKE) -f CMakeFiles/main.c.dir/build.make CMakeFiles/main.c.dir/build
+.PHONY : main.c/fast
 
-main.o: main.c.o
+exerc_2_1.o: exerc_2_1.c.o
 
-.PHONY : main.o
+.PHONY : exerc_2_1.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/two2.dir/build.make CMakeFiles/two2.dir/main.c.o
-.PHONY : main.c.o
+exerc_2_1.c.o:
+	$(MAKE) -f CMakeFiles/main.c.dir/build.make CMakeFiles/main.c.dir/exerc_2_1.c.o
+.PHONY : exerc_2_1.c.o
 
-main.i: main.c.i
+exerc_2_1.i: exerc_2_1.c.i
 
-.PHONY : main.i
+.PHONY : exerc_2_1.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/two2.dir/build.make CMakeFiles/two2.dir/main.c.i
-.PHONY : main.c.i
+exerc_2_1.c.i:
+	$(MAKE) -f CMakeFiles/main.c.dir/build.make CMakeFiles/main.c.dir/exerc_2_1.c.i
+.PHONY : exerc_2_1.c.i
 
-main.s: main.c.s
+exerc_2_1.s: exerc_2_1.c.s
 
-.PHONY : main.s
+.PHONY : exerc_2_1.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/two2.dir/build.make CMakeFiles/two2.dir/main.c.s
-.PHONY : main.c.s
+exerc_2_1.c.s:
+	$(MAKE) -f CMakeFiles/main.c.dir/build.make CMakeFiles/main.c.dir/exerc_2_1.c.s
+.PHONY : exerc_2_1.c.s
+
+exerc_2_2.o: exerc_2_2.c.o
+
+.PHONY : exerc_2_2.o
+
+# target to build an object file
+exerc_2_2.c.o:
+	$(MAKE) -f CMakeFiles/main.c.dir/build.make CMakeFiles/main.c.dir/exerc_2_2.c.o
+.PHONY : exerc_2_2.c.o
+
+exerc_2_2.i: exerc_2_2.c.i
+
+.PHONY : exerc_2_2.i
+
+# target to preprocess a source file
+exerc_2_2.c.i:
+	$(MAKE) -f CMakeFiles/main.c.dir/build.make CMakeFiles/main.c.dir/exerc_2_2.c.i
+.PHONY : exerc_2_2.c.i
+
+exerc_2_2.s: exerc_2_2.c.s
+
+.PHONY : exerc_2_2.s
+
+# target to generate assembly for a file
+exerc_2_2.c.s:
+	$(MAKE) -f CMakeFiles/main.c.dir/build.make CMakeFiles/main.c.dir/exerc_2_2.c.s
+.PHONY : exerc_2_2.c.s
 
 # Help Target
 help:
@@ -157,11 +184,14 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... two2"
+	@echo "... main.c"
 	@echo "... edit_cache"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... exerc_2_1.o"
+	@echo "... exerc_2_1.i"
+	@echo "... exerc_2_1.s"
+	@echo "... exerc_2_2.o"
+	@echo "... exerc_2_2.i"
+	@echo "... exerc_2_2.s"
 .PHONY : help
 
 

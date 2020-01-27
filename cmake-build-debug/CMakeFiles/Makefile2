@@ -53,12 +53,12 @@ CMAKE_BINARY_DIR = /cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/cm
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/two2.dir/all
+all: CMakeFiles/main.c.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/two2.dir/clean
+clean: CMakeFiles/main.c.dir/clean
 
 .PHONY : clean
 
@@ -68,31 +68,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/two2.dir
+# Target rules for target CMakeFiles/main.c.dir
 
 # All Build rule for target.
-CMakeFiles/two2.dir/all:
-	$(MAKE) -f CMakeFiles/two2.dir/build.make CMakeFiles/two2.dir/depend
-	$(MAKE) -f CMakeFiles/two2.dir/build.make CMakeFiles/two2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target two2"
-.PHONY : CMakeFiles/two2.dir/all
+CMakeFiles/main.c.dir/all:
+	$(MAKE) -f CMakeFiles/main.c.dir/build.make CMakeFiles/main.c.dir/depend
+	$(MAKE) -f CMakeFiles/main.c.dir/build.make CMakeFiles/main.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target main.c"
+.PHONY : CMakeFiles/main.c.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/two2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/two2.dir/all
+CMakeFiles/main.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/main.c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/two2.dir/rule
+.PHONY : CMakeFiles/main.c.dir/rule
 
 # Convenience name for target.
-two2: CMakeFiles/two2.dir/rule
+main.c: CMakeFiles/main.c.dir/rule
 
-.PHONY : two2
+.PHONY : main.c
 
 # clean rule for target.
-CMakeFiles/two2.dir/clean:
-	$(MAKE) -f CMakeFiles/two2.dir/build.make CMakeFiles/two2.dir/clean
-.PHONY : CMakeFiles/two2.dir/clean
+CMakeFiles/main.c.dir/clean:
+	$(MAKE) -f CMakeFiles/main.c.dir/build.make CMakeFiles/main.c.dir/clean
+.PHONY : CMakeFiles/main.c.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -6,14 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/exerc_2_1.c
-stdio.h
--
-string.h
--
-stdlib.h
--
-
 /cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/exerc_2_2.c
 stdio.h
 -
