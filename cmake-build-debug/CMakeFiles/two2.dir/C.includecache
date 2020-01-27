@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/Kent/CLionProjects/two2/main.c
+/cygdrive/c/Users/joaki/CLionProjects/Embedded-Systems/main.c
 stdio.h
 -
 string.h
+-
+stdlib.h
 -
 
