@@ -28,7 +28,7 @@ void draw_histogram(int *freq){
 }
 
 
-void testRun(){
+void frequencyCounter(){
     int table[MAX];
     int freq[MAXNUMBER] = {0};
 
@@ -36,25 +36,3 @@ void testRun(){
     count_frequency(&table, &freq);
     draw_histogram(&freq);
 }
-
-/*
-int array[MAX];
-void fillArray(){
-    for(int i = 0; i < sizeof(array) / sizeof(array[0]); i++){
-        array[i] = rand() % MAX;
-    }}
-    int findOccurences(int x) {
-    for (int i = 0; i < sizeof(array) / sizeof(array[0]); i++){
-        int occurrences = 0;
-        if(x == array[i]){
-            occurrences++;
-        }
-        return occurrences;
-    }
-
-    }
-void printOccurences(){
-    for (int i = 0; i < sizeof(array) / sizeof(array[0]); i++){
-
-    }
-}*/

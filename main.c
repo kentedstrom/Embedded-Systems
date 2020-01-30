@@ -11,7 +11,7 @@ int main() {
     //copyString();
     //integerArray();
     //printf("%d", palCheck("abcba"));
-    testRun();
+    frequencyCounter();
     return 0;
 }
 
