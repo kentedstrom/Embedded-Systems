@@ -4,12 +4,14 @@
 #include "exerc_2_1.h"
 #include "exerc_2_2.h"
 #include "exerc_2_4.h"
+#include "exerc_2_5.h"
 
 void copyString(void);
 int main() {
     //copyString();
     //integerArray();
-    printf("%d", palCheck("abcba"));
+    //printf("%d", palCheck("abcba"));
+    testRun();
     return 0;
 }
 
