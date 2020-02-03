@@ -3,5 +3,10 @@
 
 CMakeFiles/two2.dir/main.c.o: ../exerc_2_1.h
 CMakeFiles/two2.dir/main.c.o: ../exerc_2_2.h
+CMakeFiles/two2.dir/main.c.o: ../exerc_2_4.h
+CMakeFiles/two2.dir/main.c.o: ../exerc_2_5.h
+CMakeFiles/two2.dir/main.c.o: ../exerc_2_6.h
+CMakeFiles/two2.dir/main.c.o: ../exerc_2_7.h
+CMakeFiles/two2.dir/main.c.o: ../exerc_2_8.h
 CMakeFiles/two2.dir/main.c.o: ../main.c
 

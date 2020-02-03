@@ -84,7 +84,7 @@ int nimMain()
 
   printf("Välkommen till NIM by ... \n");
  
- printf("%d", human_choice(2));
+human_choice(3);
   
   pile = MAX_COINS;		// Set start values (= init)
   player = HUMAN;
@@ -138,9 +138,10 @@ void clear_stdin()
 int human_choice(int pile){
     int choice = 0;
     printf("How many do you take? \n");
-    scanf("%d", choice);
+
+    scanf("%d", &choice);
     printf("%d", choice);
-    //fflush(stdin);
+    fflush(stdin);
     if(choice <= pile && choice > 0 && choice < 4){
         printf("har");
         return choice;
