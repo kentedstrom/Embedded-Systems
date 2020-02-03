@@ -6,6 +6,7 @@
 #include "exerc_2_4.h"
 #include "exerc_2_5.h"
 #include "exerc_2_6.h"
+#include "exerc_2_7.h"
 
 void copyString(void);
 int main() {
@@ -13,7 +14,8 @@ int main() {
     //integerArray();
     //printf("%d", palCheck("abcba"));
     //frequencyCounter();
-    runQueue();
+    //runQueue();
+    loopPersnrCheck();
     return 0;
 }
 
