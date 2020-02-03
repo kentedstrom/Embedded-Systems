@@ -82,9 +82,7 @@ int nimMain()
   
   srand( time(0) );		// Setup random
 
-  printf("Välkommen till NIM by ... \n");
- 
-human_choice(3);
+  printf("Welcome to NIM by big brain squad \n");
   
   pile = MAX_COINS;		// Set start values (= init)
   player = HUMAN;
@@ -92,15 +90,15 @@ human_choice(3);
   /* 
    *  Program main loop 
    */
- /* while( true ) {
+  while( true ) {
 
-    printf("Det ligger %d  mynt i högen\n", pile );
+    printf("There are %d  coins in the pile\n", pile );
     
     if( player == HUMAN ){
       n_coins = human_choice(pile);      
     }else{
       n_coins = computer_choice(pile);
-      printf("- Jag tog %d\n", n_coins);      
+      printf("- I took %d\n", n_coins);
     }
     pile -= n_coins;
     player = toggle( player );
@@ -113,10 +111,10 @@ human_choice(3);
    * end main loop
    */
    
- /* write_winner( player );
-
+  write_winner( player );
+  play_again();
  
-  printf("Avslutat\n");*/
+  printf("Finished\n");
 
   return 0;
 }
@@ -140,10 +138,8 @@ int human_choice(int pile){
     printf("How many do you take? \n");
 
     scanf("%d", &choice);
-    printf("%d", choice);
     fflush(stdin);
     if(choice <= pile && choice > 0 && choice < 4){
-        printf("har");
         return choice;
     } else{
         printf("invalid number \n");
@@ -151,22 +147,56 @@ int human_choice(int pile){
     }
 }
 
-int computer_choice(int pile)
-{
-
+int computer_choice(int pile){
+    int choice = 0;
+    if(pile > 4){
+        return (rand() % (3 - 1 + 1)) + 1;
+    } else {
+        switch(pile){
+            case 4:
+                choice =3;
+                break;
+            case 3:
+                choice = 2;
+                break;
+            case 2:
+                choice = 1;
+                break;
+            case 1:
+                choice = 1;
+                write_winner(0);
+                break;
+        }
+        return choice;
+    }
 }
 
-void write_winner(int player )
-{
-
+void write_winner(int player ){
+   if (player == 0){
+       printf("The computer wins! \n");
+   }
+   else {
+       printf("You win! \n");
+   }
 }
 
-int play_again()
-{
-
+int play_again(){
+    printf("Do you want to play again? Y/N \n");
+    char answer;
+    scanf("%c", &answer);
+    fflush(stdin);
+    if(answer == 'Y'){
+        nimMain();
+    } else if(answer != 'N'){
+        printf("Invalid input \n");
+        play_again();
+    }
 }
 
-int toggle( int player )
-{
-
+int toggle( int player ){
+    if(player == 1){
+        return 0;
+    } else{
+        return 1;
+    }
 }
