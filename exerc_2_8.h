@@ -76,23 +76,23 @@ void clear_stdin();
  ***************************************************/
 int nimMain()
 {
-  int pile,			/* This is how many coins we have */
-    player,			/* Who is playing? */
-    n_coins;			/* Number of coins taken */
+  int pile,			// This is how many coins we have
+    player,			// Who is playing?
+    n_coins;			// Number of coins taken
   
-  srand( time(0) );		/* Setup random */
+  srand( time(0) );		// Setup random
 
-  printf("Välkommen till NIM by ...");
+  printf("Välkommen till NIM by ... \n");
  
- 
+ printf("%d", human_choice(2));
   
-  pile = MAX_COINS;		/* Set start values (= init) */
+  pile = MAX_COINS;		// Set start values (= init)
   player = HUMAN;
 
   /* 
    *  Program main loop 
    */
-  while( true ) {	
+ /* while( true ) {
 
     printf("Det ligger %d  mynt i högen\n", pile );
     
@@ -113,10 +113,10 @@ int nimMain()
    * end main loop
    */
    
-  write_winner( player );   
+ /* write_winner( player );
 
  
-  printf("Avslutat\n");
+  printf("Avslutat\n");*/
 
   return 0;
 }
@@ -135,9 +135,19 @@ void clear_stdin()
   }
 }
 
-int human_choice(int pile)
-{
-
+int human_choice(int pile){
+    int choice = 0;
+    printf("How many do you take? \n");
+    scanf("%d", choice);
+    printf("%d", choice);
+    //fflush(stdin);
+    if(choice <= pile && choice > 0 && choice < 4){
+        printf("har");
+        return choice;
+    } else{
+        printf("invalid number \n");
+        human_choice(pile);
+    }
 }
 
 int computer_choice(int pile)
