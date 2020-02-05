@@ -11,7 +11,7 @@ int checkStrings(char string1[], char string2[]){
         printf("Strings are not the same due to length");
         return 0;
     }
-    for (int i = 0; i < sizeof(string1) / sizeof(string1[0]); i++){
+    for (int i = 0; i < strlen(string1); i++){
         if (!(string1[i] == string2[i])){
             printf("Strings are not the same due to character array");
             return 0;
