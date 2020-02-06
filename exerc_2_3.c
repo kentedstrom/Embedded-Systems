@@ -27,7 +27,7 @@ int checkStrings(char string1[], char string2[]){
     return 1;
 }
 
-int compareMain(int argc, char **argv) {
+int main(int argc, char **argv) {
 
     if (argc == 3) {
         checkStrings(argv[1],argv[2]);
