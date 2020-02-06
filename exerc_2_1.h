@@ -15,6 +15,7 @@ void copyString(){
     char copied[21];
     char input[sizeof copied];
     char libraryCopy[sizeof copied];
+    printf("Enter string to be copied \n");
     fgets(input, sizeof input, stdin);
     strcpy(libraryCopy, input);
     for (int i = 0; i < sizeof input ; i++){

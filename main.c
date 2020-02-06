@@ -12,13 +12,20 @@
 
 void copyString(void);
 int main(int argc, char **argv) {
-    //copyString();
-    //integerArray();
-    //printf("%d", palCheck("abcba"));
-    //frequencyCounter();
-    //runQueue();
-    //loopPersnrCheck();
-    //nimMain();
+    printf("2.1: \n");
+    copyString();
+    printf("\n Integer Array: \n");
+    integerArray();
+    printf("\n Palindrome check with abcba: \n");
+    printf("%d", palCheck("abcba"));
+    printf("\n Frequency Counter: \n");
+    frequencyCounter();
+    printf("\n Queue: \n");
+    runQueue();
+    printf(" \n Personnummer checker: \n");
+    loopPersnrCheck();
+    printf("\n Nim: \n");
+    nimMain();
     return 0;
 }
 
