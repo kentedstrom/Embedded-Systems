@@ -1,9 +1,15 @@
+/* ====================================
+File name: exerc_2_3.h
+Date: 2020-02-06
+Group nr 19
+Members that contribute to the solutions
+Kent Edström
+Member not present at the demonstration time
+
+Demonstration code:
+====================================== */
 #include <stdio.h>
 #include <string.h>
-#include <stdlib.h>
-
-
-
 
 int checkStrings(char string1[], char string2[]){
     int i = 0;
@@ -21,7 +27,7 @@ int checkStrings(char string1[], char string2[]){
     return 1;
 }
 
-int main(int argc, char **argv) {
+int compareMain(int argc, char **argv) {
 
     if (argc == 3) {
         checkStrings(argv[1],argv[2]);
