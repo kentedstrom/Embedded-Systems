@@ -34,13 +34,29 @@ int controlDigit(char persnr[]){
 
 
 int readPersnr(char persnr[]){
+    int year = (persnr[0] - '0') * 10 + (persnr[1] - '0');
     int month = (persnr[2] - '0') * 10 + (persnr[3] - '0');
+    int day = (persnr[4] - '0') * 10 + (persnr[5] - '0');
+
     if(month > 12 || month < 1){
         return 0;
     }
-    int day = (persnr[4] - '0') * 10 + (persnr[5] - '0');
-    if(day > 31 || day < 1){ // lazy checking but the alternative seems overkill
+
+    if(day > 31 || day < 1){
         return 0;
+    }
+
+    if(month % 2 == 0 && day > 30){
+        return 0;
+    }
+
+    if(month == 2){
+        if(day > 29){
+            return 0;
+        }
+        if(day > 28 && year % 4 == 0){
+            return 0;
+        }
     }
 
     if(persnr[9] - '0' != controlDigit(persnr)){
