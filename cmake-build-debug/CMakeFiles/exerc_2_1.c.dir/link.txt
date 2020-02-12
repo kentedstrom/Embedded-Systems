@@ -1,1 +1,0 @@
-/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/exerc_2_1.c.dir/exerc_2_2.c.o CMakeFiles/exerc_2_1.c.dir/exerc_2_3.c.o  -o exerc_2_1.c.exe -Wl,--out-implib,libexerc_2_1.c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

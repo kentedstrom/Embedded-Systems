@@ -1,3 +1,0 @@
-/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/cmake-build-debug/CMakeFiles/two2.dir
-/cygdrive/c/Users/Kent/CLionProjects/two2/Embedded-Systems/cmake-build-debug/CMakeFiles/edit_cache.dir
