@@ -7,7 +7,7 @@ Kent Edström
 Joakim Deak
 Member not present at the demonstration time
 
-Demonstration code:
+Demonstration code: 30256
 ====================================== */
 #include <stdio.h>
 #include <string.h>
@@ -15,7 +15,7 @@ Demonstration code:
 
 
 
-#define MAX 99
+#define MAX 20
 
 void integerArray(){
     int array[MAX];

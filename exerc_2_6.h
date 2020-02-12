@@ -6,7 +6,7 @@ Members that contribute to the solutions
 Joakim Deak
 Member not present at the demonstration time
 
-Demonstration code:
+Demonstration code: 31444
 ====================================== */
 #include <stdio.h>
 
@@ -31,7 +31,7 @@ int output(int list[], int max){
         return 0;
     }
     int output = list[0];
-
+//left shift
     for(int i = 1; i < max; i++){
         list[i - 1] = list[i];
     }
