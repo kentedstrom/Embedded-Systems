@@ -11,7 +11,7 @@
 #include "exerc_2_8.h"
 
 void copyString(void);
-int main(int argc, char **argv) {
+/*int main(int argc, char **argv) {
     printf("2.1: \n");
     copyString();
     printf("\n Integer Array: \n");
@@ -27,6 +27,6 @@ int main(int argc, char **argv) {
     printf("\n Nim: \n");
     nimMain();
     return 0;
-}
+}*/
 
 
